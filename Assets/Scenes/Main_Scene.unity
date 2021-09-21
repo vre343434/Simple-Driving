@@ -377,7 +377,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -275.0714, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -401,6 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721748096}
   - component: {fileID: 721748097}
+  - component: {fileID: 721748098}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -438,8 +439,21 @@ MonoBehaviour:
   highScoreText: {fileID: 47712448}
   energyText: {fileID: 948901667}
   nextTimePlay: {fileID: 146265053}
+  androidNotificationHandler: {fileID: 721748098}
   maxEnergy: 5
   energyRechargeDuration: 1
+--- !u!114 &721748098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721748095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a894ac579bad4241847965bb51b1a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &948901665
 GameObject:
   m_ObjectHideFlags: 0
